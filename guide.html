@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Getting Started | CirculateJS</title>
+    <meta name="generator" content="VuePress 1.5.0">
+    
+    <meta name="description" content="The application scaffolding framework for creating amazing things">
+    <link rel="preload" href="/assets/css/0.styles.d75e3098.css" as="style"><link rel="preload" href="/assets/js/app.2bf2fe83.js" as="script"><link rel="preload" href="/assets/js/2.6048d225.js" as="script"><link rel="preload" href="/assets/js/7.d67db824.js" as="script"><link rel="prefetch" href="/assets/js/10.753bc3c4.js"><link rel="prefetch" href="/assets/js/3.d0ddf3a7.js"><link rel="prefetch" href="/assets/js/4.2791bdc2.js"><link rel="prefetch" href="/assets/js/5.d29c3707.js"><link rel="prefetch" href="/assets/js/6.66ae821c.js"><link rel="prefetch" href="/assets/js/8.5d287860.js"><link rel="prefetch" href="/assets/js/9.26dfbbea.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d75e3098.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="circulatejs-logo.svg" alt="CirculateJS" class="logo"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/env-reference.html" class="nav-link">
+  Env
+</a></div><div class="nav-item"><a href="/plugins.html" class="nav-link">
+  Plugins
+</a></div><div class="nav-item"><a href="/ui.html" class="nav-link">
+  UI
+</a></div><div class="nav-item"><a href="https://github.com/circulatejs/circulatejs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Guide
+</a></div><div class="nav-item"><a href="/env-reference.html" class="nav-link">
+  Env
+</a></div><div class="nav-item"><a href="/plugins.html" class="nav-link">
+  Plugins
+</a></div><div class="nav-item"><a href="/ui.html" class="nav-link">
+  UI
+</a></div><div class="nav-item"><a href="https://github.com/circulatejs/circulatejs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Getting Started</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide.html#prerequisites" class="sidebar-link">Prerequisites</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guide.html#installing" class="sidebar-link">Installing</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guide.html#setting-up-the-project" class="sidebar-link">Setting Up The Project</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide.html#starting-the-application-without-an-admin" class="sidebar-link">Starting The Application Without An Admin</a></li><li class="sidebar-sub-header"><a href="/guide.html#developing-in-the-project" class="sidebar-link">Developing In The Project</a></li></ul></li><li><a href="/guide.html#default-directory-structure" class="sidebar-link">Default Directory Structure</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guide.html#the-application-structure" class="sidebar-link">The Application Structure</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/guide.html#creating-your-first-application" class="sidebar-link">Creating Your First Application</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide.html#creating-a-plugin" class="sidebar-link">Creating A Plugin</a></li><li class="sidebar-sub-header"><a href="/guide.html#adjusting-the-model" class="sidebar-link">Adjusting The Model</a></li><li class="sidebar-sub-header"><a href="/guide.html#adjusting-controller-methods" class="sidebar-link">Adjusting Controller Methods</a></li><li class="sidebar-sub-header"><a href="/guide.html#adding-the-routes" class="sidebar-link">Adding The Routes</a></li><li class="sidebar-sub-header"><a href="/guide.html#create-an-admin-component" class="sidebar-link">Create An Admin Component</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="getting-started"><a href="#getting-started" class="header-anchor">#</a> Getting Started</h1> <h2 id="prerequisites"><a href="#prerequisites" class="header-anchor">#</a> Prerequisites</h2> <p>You need to have at least Node version 12.0.0 installed on your system. You can check the version with the following command:</p> <div class="language-sh extra-class"><pre class="language-sh"><code>node -v
+</code></pre></div><h2 id="installing"><a href="#installing" class="header-anchor">#</a> Installing</h2> <p>To install CirculateJS, you only need to run one command, depending on which package manager you use:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> create circulatejs-app <span class="token operator">&lt;</span>project-directory<span class="token operator">&gt;</span>
+
+<span class="token comment"># Or</span>
+
+npx create-circulatejs-app <span class="token operator">&lt;</span>project-directory<span class="token operator">&gt;</span>
+</code></pre></div><h2 id="setting-up-the-project"><a href="#setting-up-the-project" class="header-anchor">#</a> Setting Up The Project</h2> <p>After the installer runs, it will ask you a series of questions to setup the project.
+Once this is complete, it will install all the dependencies for the project.
+You will then be able to start your project with the following command, depending on your package manager of choice:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> start
+
+<span class="token comment"># Or</span>
+
+<span class="token function">npm</span> start
+</code></pre></div><p>When you start up the server for the first time, you will be required to input a username and password for the first user. From there, the server will start
+and you'll be able to log into the admin with the credentials you created.</p> <h3 id="starting-the-application-without-an-admin"><a href="#starting-the-application-without-an-admin" class="header-anchor">#</a> Starting The Application Without An Admin</h3> <p>It's also possible to startup the application without generating the admin at all. To do this, run the start command with the following switch:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> start --no-admin
+
+<span class="token comment"># Or</span>
+
+<span class="token function">npm</span> start --no-admin
+</code></pre></div><p>There might be a couple of reasons why you don't want this. One reason is that you might not even need the admin for the application, like if you are running your own admin, or have a different way of interacting with the database. Another reason might be, maybe you don't want to generate the admin on everything single start, especially if you need the application to start up faster (the admin remains cached when generated).</p> <h3 id="developing-in-the-project"><a href="#developing-in-the-project" class="header-anchor">#</a> Developing In The Project</h3> <p>If you would like to develop anything for the project, and don't want to have to restart the application every single time
+(watch for changes), then your can start the project with the following command, based on your package manager of choice:</p> <div class="language-sh extra-class"><pre class="language-sh"><code><span class="token function">yarn</span> dev
+
+<span class="token comment"># Or</span>
+
+<span class="token function">npm</span> dev
+</code></pre></div><h2 id="default-directory-structure"><a href="#default-directory-structure" class="header-anchor">#</a> Default Directory Structure</h2> <div class="language- extra-class"><pre class="language-text"><code>APP_ROOT
+  |- bootstrap.js
+  |- circulate.js
+  |- .env
+  |- /plugins
+  |- package.json
+</code></pre></div><p>You'll notice that by default, the application structure attempts to be as slim as possible. This will hopefully allow you to know exactly where everything is quickly.</p> <blockquote><p>Note that the &quot;/plugins&quot; directory may exist under a different name if you choice a different location when creating the application for the first time. You can also change this directory path at any time. Please view the <a href="/env-reference.html">env reference</a> for more information.</p></blockquote> <h2 id="the-application-structure"><a href="#the-application-structure" class="header-anchor">#</a> The Application Structure</h2> <p>By default, CirculateJS doesn't do much, other than provide an administration interface (/admin by default). The power of the application comes from plugins. The idea behind this is to allow you to create the exact application that you want, without the need for anything extra, or hacking your way through it. This also has the added benefit of keeping your different application logic separated.</p> <p>So now, how do we go about adding a plugin? You just need to add a directory (preferably as the name of your plugin), and make sure there is a manifest file available for the application to read.</p> <p>For more detailed information, visit the <a href="/plugins.html">plugin page</a></p> <h2 id="creating-your-first-application"><a href="#creating-your-first-application" class="header-anchor">#</a> Creating Your First Application</h2> <p>If you have followed all the instructions above (<a href="/guide.html#installing">installing a new application</a>), then the next section will walk through how to create a sample application as an example.</p> <blockquote><p>NOTE: Be sure to review the <a href="/plugins.html">plugin section</a> before you proceed.</p></blockquote> <p>Lets create a new blog application.</p> <h3 id="creating-a-plugin"><a href="#creating-a-plugin" class="header-anchor">#</a> Creating A Plugin</h3> <p>First thing you will need to do is create a new blog plugin that CirculateJS core will accept. Run the following command:</p> <div class="language-sh extra-class"><pre class="language-sh"><code>node circulate create:plugin blog
+</code></pre></div><p>Follow the prompts. Call the plugin &quot;blog&quot;, and give each Model, Controller, And component the name &quot;Pot&quot;. This will now create a blog plugin with the following structure:</p> <div class="language- extra-class"><pre class="language-text"><code>blog (root)
+  |- /admin
+    |- adminRoutes.js
+    |- Post.vue
+  |- /controllers
+    |- PostController.js
+  |- /models
+    |- PostModel.js
+  |- manifest.json
+  |- routes.js
+</code></pre></div><h3 id="adjusting-the-model"><a href="#adjusting-the-model" class="header-anchor">#</a> Adjusting The Model</h3> <p>The next step is adjusting the model. When we generate the model, it has a default id field, but we need to add new fields for our blog application.</p> <p>Within the &quot;<em>createTable</em>&quot; method, we add two new fields:</p> <div class="language-js extra-class"><pre class="language-js"><code>table<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token string">'title'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">notNullable</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+table<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token string">'body'</span><span class="token punctuation">)</span>
+</code></pre></div><p>This will create the new fields as strings in the database, making sure that the title fields can't be null</p> <p>Optionally, in the &quot;<em>Joi.options</em>&quot; method, you can add in some validation for the fields to make sure that they are strings before they hit the database:</p> <div class="language-js extra-class"><pre class="language-js"><code>title<span class="token operator">:</span> Joi<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+body<span class="token operator">:</span> Joi<span class="token punctuation">.</span><span class="token function">string</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre></div><h3 id="adjusting-controller-methods"><a href="#adjusting-controller-methods" class="header-anchor">#</a> Adjusting Controller Methods</h3> <p>The generator creates default methods, each one depending on the use case. In our case, we want to add to the &quot;post&quot;, &quot;get&quot;, and &quot;find&quot; methods.</p> <p>We have access to all Hapi methods that we need in here. You can view the Hapi docs here for reference.</p> <p>In the &quot;post&quot; controller method, add the following code:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// Get the model</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> Post <span class="token punctuation">}</span> <span class="token operator">=</span> request<span class="token punctuation">.</span>server<span class="token punctuation">.</span><span class="token function">models</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Get the payload values</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> title<span class="token punctuation">,</span> body <span class="token punctuation">}</span> <span class="token operator">=</span> request<span class="token punctuation">.</span>payload
+
+<span class="token comment">// Add new post to the database</span>
+<span class="token keyword">await</span> Promise<span class="token punctuation">.</span><span class="token function">all</span><span class="token punctuation">(</span><span class="token punctuation">[</span>
+  Post<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    title<span class="token punctuation">,</span>
+    body<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Return the response for adding the new post</span>
+<span class="token keyword">return</span> <span class="token keyword">await</span> h<span class="token punctuation">.</span><span class="token function">response</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">Post &quot;</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>title<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&quot; created</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span>
+</code></pre></div><p>In the &quot;get&quot; controller method, add the following code:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// Get the model</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> Post <span class="token punctuation">}</span> <span class="token operator">=</span> request<span class="token punctuation">.</span>server<span class="token punctuation">.</span><span class="token function">models</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Query for all posts</span>
+<span class="token keyword">const</span> posts <span class="token operator">=</span> <span class="token keyword">await</span> Post<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token string">'id'</span><span class="token punctuation">,</span> <span class="token string">'title'</span><span class="token punctuation">,</span> <span class="token string">'body'</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Return all posts</span>
+<span class="token keyword">return</span> <span class="token keyword">await</span> h<span class="token punctuation">.</span><span class="token function">response</span><span class="token punctuation">(</span><span class="token punctuation">{</span> posts <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>In the &quot;find&quot; controller method, add the following code:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// Get the model</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> Post <span class="token punctuation">}</span> <span class="token operator">=</span> request<span class="token punctuation">.</span>server<span class="token punctuation">.</span><span class="token function">models</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Get the id from the params</span>
+<span class="token keyword">const</span> id <span class="token operator">=</span> request<span class="token punctuation">.</span>params<span class="token punctuation">.</span>id
+
+<span class="token comment">// Get the queried post from the id in the request</span>
+<span class="token keyword">const</span> post <span class="token operator">=</span> <span class="token keyword">await</span> Post<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">findById</span><span class="token punctuation">(</span>id<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token string">'title'</span><span class="token punctuation">,</span> <span class="token string">'body'</span><span class="token punctuation">)</span>
+
+<span class="token comment">// Return the single post</span>
+<span class="token keyword">return</span> <span class="token keyword">await</span> h<span class="token punctuation">.</span><span class="token function">response</span><span class="token punctuation">(</span><span class="token punctuation">{</span> post <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>Now we have created our controller methods, but how do we use them?</p> <h3 id="adding-the-routes"><a href="#adding-the-routes" class="header-anchor">#</a> Adding The Routes</h3> <p>To get access to the controller methods, we are going to need to create routes for them.</p> <p>Open the &quot;routes.js&quot; file and add the controller to get access to the methods:</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token punctuation">{</span> PostController <span class="token punctuation">}</span> <span class="token operator">=</span> server<span class="token punctuation">.</span>controllers
+</code></pre></div><p>You'll want to add the post within the &quot;admin&quot; method of the routes file. This will make sure that any post is behind authentication:</p> <div class="language-js extra-class"><pre class="language-js"><code>admin<span class="token operator">:</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    method<span class="token operator">:</span> <span class="token string">'POST'</span><span class="token punctuation">,</span>
+    path<span class="token operator">:</span> <span class="token string">'/post/add'</span><span class="token punctuation">,</span>
+    handler<span class="token operator">:</span> PostController<span class="token punctuation">.</span>post
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+</code></pre></div><p>You'll want to make sure everything else exists within the &quot;api&quot; method:</p> <div class="language-js extra-class"><pre class="language-js"><code>api<span class="token operator">:</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    method<span class="token operator">:</span> <span class="token string">'GET'</span><span class="token punctuation">,</span>
+    path<span class="token operator">:</span> <span class="token string">'/posts'</span><span class="token punctuation">,</span>
+    handler<span class="token operator">:</span> PostController<span class="token punctuation">.</span>get
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">{</span>
+    method<span class="token operator">:</span> <span class="token string">'GET'</span><span class="token punctuation">,</span>
+    path<span class="token operator">:</span> <span class="token string">'/posts/{id}'</span><span class="token punctuation">,</span>
+    handler<span class="token operator">:</span> PostController<span class="token punctuation">.</span>find
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span><span class="token punctuation">,</span>
+</code></pre></div><blockquote><p>NOTE: Make sure the ${id} is the same as the id param within the controller.</p></blockquote> <p>We have the basic scaffold in place now for creating a basic blog. Now we need to create a way to add blog posts.</p> <h3 id="create-an-admin-component"><a href="#create-an-admin-component" class="header-anchor">#</a> Create An Admin Component</h3> <p>If you notice the &quot;/admin&quot; directory, there are a few files that were created when you generated the plugin. Lets look at the &quot;adminRoutes.js&quot; file, so we can understand the differences between that and the &quot;route.js&quot; file at the root on the plugin.</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">'/post'</span><span class="token punctuation">,</span>
+    menu<span class="token operator">:</span> <span class="token string">'Post'</span><span class="token punctuation">,</span>
+    <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token comment">/* webpackChunkName: &quot;post&quot; */</span> <span class="token string">'./Post.vue'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+</code></pre></div><p>This is the main file that generates the admin path and interface to be used within the admin. This file generates a the Vue component and adds the path within admin. The menu item with create a new menu item on the left hand side menu.</p> <p>Now if you were the start the application right now, and log into admin, and go to the post page, you'll notice something like this:</p> <p>(image)</p> <p>This is a default admin page that is generated when you create a plugin. We will want to update it to be able to add new posts.</p> <p>Change the pages Vue code to the following:</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>heading<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>Create New Post<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">@submit.prevent</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>submitPost<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>c-input</span>
+        <span class="token attr-name">v-model.trim</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>post.title<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text<span class="token punctuation">&quot;</span></span>
+        <span class="token attr-name">placeholder</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>title<span class="token punctuation">&quot;</span></span>
+      <span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>c-input</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>c-rich-text</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>post.body<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>c-rich-text</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>inline-flex<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>c-button</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>submit<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>mr-2<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+          <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>c-icon</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>plus<span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>inline<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>c-icon</span><span class="token punctuation">&gt;</span></span>
+          Add
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>c-button</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+<span class="token keyword">import</span> <span class="token punctuation">{</span> cInput<span class="token punctuation">,</span> cButton<span class="token punctuation">,</span> cIcon<span class="token punctuation">,</span> cRichText <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'@circulatejs/ui'</span>
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'Post'</span><span class="token punctuation">,</span>
+  components<span class="token operator">:</span> <span class="token punctuation">{</span>
+    cInput<span class="token punctuation">,</span>
+    cButton<span class="token punctuation">,</span>
+    cIcon<span class="token punctuation">,</span>
+    cRichText<span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      post<span class="token operator">:</span> <span class="token punctuation">{</span>
+        title<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+        body<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token function">submitPost</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$http
+        <span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/admin/api/post/add'</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>post<span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">response</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          <span class="token keyword">this</span><span class="token punctuation">.</span>post<span class="token punctuation">.</span>title <span class="token operator">=</span> <span class="token string">''</span>
+          <span class="token keyword">this</span><span class="token punctuation">.</span>post<span class="token punctuation">.</span>body <span class="token operator">=</span> <span class="token string">''</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+        <span class="token punctuation">.</span><span class="token function">catch</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">error</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+          console<span class="token punctuation">.</span><span class="token function">error</span><span class="token punctuation">(</span>error<span class="token punctuation">.</span>response<span class="token punctuation">)</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>There are a few things of note with the proceeding code:</p> <ol><li>We are importing Circulate UI to the component, and then using those components in the HTML markup. You can find out more about Circulate UI <a href="/ui.html">here</a></li> <li>We need to point to the full admin path when create XHR method (this.$http), and then pass in the data.</li> <li>The data needs to be reset back to default when you get a successful response. Admin does not take care of this for you.</li></ol> <blockquote><p>NOTE: We plan on adding Mixin methods available to handle some of these things for oyu in the future.
+NOTE: You'll most likely want to have a basic understanding to Vue to work with the Admin interface efficiently.</p></blockquote> <p>Now, you'll want to create a post. If you go to the post page, you should see the two fields, title (a field) and body (a rich text editor). Input the following data, and hit the &quot;add&quot; button:</p> <p>title: Test
+body: This ia a test body.</p> <p>Once they are added, you can go to a couple of the other routes that we had setup outside of the application. Go to the following URLs (assuming you have kept the defaults when starting the application):</p> <p>http://localhost:3000/api/posts
+http://localhost:3000/api/posts/1</p> <p>You should see the the following JSON data returned:</p> <div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;posts&quot;</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">&quot;id&quot;</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Test&quot;</span><span class="token punctuation">,</span>
+      <span class="token property">&quot;body&quot;</span><span class="token operator">:</span> <span class="token string">&quot;{\&quot;ops\&quot;:[{\&quot;insert\&quot;:\&quot;This is a test body.\\n\&quot;}]}&quot;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><div class="language-json extra-class"><pre class="language-json"><code><span class="token punctuation">{</span>
+  <span class="token property">&quot;post&quot;</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">&quot;title&quot;</span><span class="token operator">:</span> <span class="token string">&quot;Test&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;body&quot;</span><span class="token operator">:</span> <span class="token string">&quot;{\&quot;ops\&quot;:[{\&quot;insert\&quot;:\&quot;This is a test body.\\n\&quot;}]}&quot;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>If you put this out on the internet, this is the data you would see returned. You can then add a front end that consumes this data. Something like <a href="https://nuxtjs.org/" target="_blank" rel="noopener noreferrer">Nuxt<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, or if you prefer, leave it as an API. It all depends on your use case.</p> <p>This was a very simple example of the start of a blogging application. Not only showing that you can create your own interface within the provided Admin bundled with the framework, but you can create your database, and return exactly the data you want or need when you need it, and quickly. We believe this will empower developers to create very powerful API's or headless CMS's very quickly, while creating a structure that is easy to maintain.</p> <p>We look forward to seeing what you create!</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/learn-more.html" class="prev">
+        Learn More
+      </a></span> <span class="next"><a href="/env-reference.html">
+        Environment Reference
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.2bf2fe83.js" defer></script><script src="/assets/js/2.6048d225.js" defer></script><script src="/assets/js/7.d67db824.js" defer></script>
+  </body>
+</html>
